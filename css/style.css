@@ -1,6 +1,6 @@
 body, html
 {
-	background-image: url(images/pattern7.png) !important;
+	background-image: url(images/space.png) !important;
 /*#DFB8A5    orange accent-4*/
 
 }
@@ -263,7 +263,7 @@ footer
 	  clear: both;
 		margin-top: -20%;
 
-	  color: #000;
+	  color: #fff;
 	}
 	#indexfoot{
 	 font-size: 1em;
@@ -271,7 +271,7 @@ footer
 	  clear: both;
 		margin-top: 0;
 
-	  color: #000;
+	  color: #fff;
 	}
 
 	#can1{
@@ -343,7 +343,7 @@ margin: 0 10px 0 0;
 		text-align: center;
 		clear: both;
 		margin-top: 0;
-		color: #000;
+		color: #fff;
 	}
 
 	#twitter{
@@ -524,7 +524,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url('http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg');
+  background-image: url('images/space.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -553,7 +553,7 @@ body {
 }
 
 .main h1 {
-  color: #333;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 70px;
@@ -605,8 +605,8 @@ body {
 }
 
 .btn-default {
-  border: 1px solid #333333;
-  color: #333;
+  border: 1px solid #fff;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 10px;
@@ -642,4 +642,14 @@ body {
   .supporting .col {
     width: 100%;
   }
+}
+
+#profile {
+	max-width: 40%;
+	float: left;
+	border-radius: 100%;
+}
+
+#circle {
+	border-radius: 100%;
 }

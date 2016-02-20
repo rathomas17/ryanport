@@ -1,6 +1,8 @@
 Router.route('/home');
 
-Router.route('/index');
+Router.route('/student');
+Router.route('/music');
+Router.route('/dev');
 
 
 Router.route('/', function () {
