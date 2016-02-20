@@ -652,4 +652,12 @@ body {
 
 #circle {
 	border-radius: 100%;
+
+}
+
+#circleprofile {
+	display: block;
+	float: left;
+	border-radius: 100%;
+	margin: 0 5% 0 0;
 }
