@@ -1,61 +1,178 @@
 <template name = "music">
 
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet' href='style.css' />
-  </head>
+    <head>
 
-  <body>
-    <div class="header">
-      <div class="container">
-        <ul class="nav">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+        <title>Musician</title>
+      <!--<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>-->
+        <link rel='stylesheet prefetch' type="text/css" href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
+        <link rel="stylesheet" type = "text/css" href="../css/style.css">
 
-        </ul>
-      </div>
-    </div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <div class="main">
-          <div>
-            <img id="profile" src="images/mefull.png">
-          </div>
-          <h1>Hi, I'm ryan.</h1>
-          <a href="/dev" class="btn-main">Get to know me</a>
+        <!--MENU CSS-->
+        <style type="text/css">
+          ul {list-style: none;padding: 2px 2px 2px ;margin: 0px;}
+          ul li {display: block;position: relative;float: left;border:1px solid #fff}
+          li ul {display: none;}
+          ul li a {display: block;background: #A0A0A0;padding: 15px 10px 15px 10px;text-decoration: none;
+                 white-space: nowrap;color: #fff;}
+          ul li a:hover {background: #A0A0A0;}
+          li:hover ul {display: block; position: absolute;}
+          li:hover li {float: left; }
+          li:hover a {background: #A0A0A0;}
+          li:hover li a:hover {background: #000;}
+          #drop-nav li ul li {border-top: 0px;}
+        </style>
+        <!--END MENU CSS-->
+
+    </head>
+
+
+
+
+
+
+
+    <body>
+
+      <!--FACEBOOK CODE-->
+      <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+      <!--END FACEBOOK CODE-->
+
+
+      <!--HEADER-->
+      <a id = "topjump">
+        <div id="homeheader" class="intro grey darken-3 z-depth-3">
+          <!--<img id="forward" src="images/title.png" width="50%" height="40%">-->
+          <h5 clas="grey lighten-4 grey-text text-darken-1">Musucian</h5>
         </div>
-      </div>
-    </div>
+      </a>
+      <!--END HEADER-->
 
-    <div class="supporting">
-      <div class="container">
-        <div class="col">
-          <img src="images/bookswhite.png">
-          <h2 class="white-text">Student</h2>
-          <p class="white-text">Make your projects look great and interact beautifully.</p>
-          <a href="/student" class="btn-default">Learn more</a>
-        </div>
-        <div class="col">
-          <img src="images/iowhite.png">
-          <h2 class="white-text">Developer</h2>
-          <p class="white-text">Use modern tools to turn your design into a web site</p>
-          <a href="/dev" class="btn-default">Learn more</a>
-        </div>
-        <div class="col">
-          <img src="images/pianowhite.png">
-          <h2 class="white-text">Musician</h2>
-          <p class="white-text">Use modern tools to turn your design into a web site</p>
-          <a href="/music" class="btn-default">Learn more</a>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
 
-    <div class="footer">
-      <div class="container">
-        <p>&copy; Ryan-Alexander Thomas</p>
+      <!--MENU CODE-->
+      <ul id="drop-nav">
+        <li><a href="#">MENU</a>
+          <ul>
+            <li><a href="/home"    >Home   </a></li>
+            <li><a href="/student"  >Student</a></li>
+            <li><a href="/dev" >Work</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- END MENU CODE-->
+
+
+      <!-- EXPERIENCE -->
+      <div class="container about">
+        <a id = "aboutjump"> </a>
+
+          <h5 class ="white-text text-lighten-3" >I love music!</h5>
+          <img id = "circleprofile" src="images/ryanpiano.jpg" width="100" height="100">
+          <p class = "white-text">A bit about myself: Though exposed to many musicians in my family at an early age, I didn't begin formal lessons until I was in High School. My first degree was in Audio Engineering and then began to study Arranging/Composition before I completed the Music Theory Program at UH.</p>
+
+          <p class = "white-text">Before teaching, I was a DJ in Houston, TX for a few years. Working over 100 events, I started with mostly weddings. However, ended up in performing at a lot of bars, clubs, and fashion shows. Eventually, I earned my Teacher's Certification while I was teaching music and directing the band at St. Theresa Catholic School in Houston for a few years. </p>
+
+           <p class = "white-text">I'm looking to play jazz, blues, bluegrass, or country, but I'm also down to just jam out on whatever. I mostly play sax, piano, bass, and banjo; but I did bring my accordion, ukulele, guitar, and a few other instruments from Texas. I'm open to jamming with all musicians of any background and skill level!</p>
+
       </div>
-    </div>
-  </body>
+      <!-- END OF EXPERIENCE -->
+
+
+
+
+
+
+      <!-- SHOWCASE -->
+      <div class="container portfolio">
+        <a id = "policyjump"> </a>
+
+          <h6 id ="needspace3" class = "white-text text-lighten-3">CLICK TO VIEW</h6>
+            <div class="row">
+              <div class="col s15 m15 l15 portfolio-holder">
+                <img class="materialboxed" src="images/piano.jpg">
+                <img class="materialboxed" src="images/stage.jpg">
+                <img class="materialboxed" src="images/saxees.jpg">
+                <img class="materialboxed" src="images/trumpet.jpg">
+                <img class="materialboxed" src="images/layal.jpg">
+                <img class="materialboxed" src="images/studio.jpg">
+
+              <img class="materialboxed" src="images/bassoon.jpg">
+              </div>
+            </div>
+      </div>
+      <!-- END OF SHOWCASE -->
+
+
+            <!--THREE QUESTIONS-->
+            <div  id="needspace3" class="col s12 m4 l4">
+              <ul class="collapsible">
+                <li class="active">
+                  <div class="collapsible-header"><i class="mdi-av-web"></i>Instruments known</div>
+                  <div class="collapsible-body"><p class="white-text" >Bass (double and upright), Sax (soprano, alto, tenor), Piano, Accordion, Guitar, Banjo, Ukulele, Violin, Flute, Percussion</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="mdi-editor-format-align-justify"></i>Favorite instrument</div>
+                  <div class="collapsible-body"><p class="white-text" >Tenor Saxophone</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="mdi-av-play-shopping-bag"></i>Favorite genre of music</div>
+                  <div class="collapsible-body"><p class="white-text" >TIE: Cool Jazz and Deep House</p></div>
+                </li>
+              </ul>
+            </div>
+
+            <!--END THREE QUESTIONS-->
+
+
+        <!-- CONTACT-->
+      <div  class="container contact">
+        <a id = "contactjump"> </a>
+          <h5 class="white-text" id="needspace">Let's Make Music!</h5>
+          <h6 class = "white-text text-lighten-3">*Currently not accepting audio engineering jobs</h6>
+
+            <!--CONTACT US CODE set to rathomas17@gmail.com-->
+            <form  class="white-text" action="MAILTO:rathomas17@gmail.com" method="post" enctype="text/plain">
+              Your Name:
+                <input class="white-text" type="text" name="name">
+              Email Address:
+                <input class="white-text" type="text" name="email">
+              Type of Project:
+                <input class="white-text" type="text" name="project">
+              Message:
+                <textarea class="white-text" name="message"></textarea>
+              <input class = "btn submit-btn" type="submit" value="Submit">
+            </form>
+            <!--END CONTACT US CODE-->
+      </div>
+
+
+
+        <script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script type="text/javascript" src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
+
+
+      <!--RESUME-->
+      <a href= "images/resume.pdf"> <h4 id="needspace"> CLICK HERE TO DOWNLOAD MY RESUME</h4></a>
+
+
+      <!--FOOTER-->
+      <footer id = "indexfoot">
+        <p>&copy; 2016 Ryan-Alexander Thomas</p>
+      </footer>
+
+    </body>
+
+
 
 
 
