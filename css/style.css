@@ -665,3 +665,7 @@ body {
 	border-radius: 100%;
 	margin: 0 5% 1% 0;
 }
+
+#moveup {
+	margin-top: -13%;
+}
