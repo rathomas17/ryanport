@@ -1,9 +1,12 @@
+
+$(document).ready(function(){
+  $('.slider').slider();
+});
 $(document).ready(function(){
   //$('.materialboxed').materialbox();
   $('.wheel').slick({
 
   });
-
 
 
 
@@ -24,9 +27,11 @@ $(document).ready(function(){
 
 
 
-Template.student.onRendered(function() {
-  $('.wheel').slick({
 
+
+Template.student.onRendered(function() {
+  $(document).ready(function(){
+    $('.slider').slider();
   });
 });
 
