@@ -685,7 +685,18 @@ body {
 
 
 
+.progress {
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
 
+.progress-bar {
+  padding-left: 10px;
+  text-align: left;
+}
 
 
 
