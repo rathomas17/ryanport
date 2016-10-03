@@ -9,6 +9,8 @@
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css'>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -33,13 +35,13 @@
           <li><a class="smoothscroll" href="#skills">Work</a></li>
           <li><a class="smoothscroll" href="#portfolio">Gallery</a></li>
           <li><a class="smoothscroll" href="#contact">Contact</a></li>
-          <li><a href="http://localhost:8000/projects.html">Projects</a></li>
+          <li><a href="">Projects (coming soon)</a></li>
         </ul>
       </nav>
     </div>
   </div>
   <div class="title">
-    <div><span class="typcn typcn-heart-outline icon heading"></span></div>
+    <div><i id="icon" class="fa fa-codepen fa-spin fa-5x " aria-hidden="true"></i></div>
     <div class="smallsep heading"></div>
     <h1 class="heading"> Ryan-Alexander Thomas</h1>
     <h2 class="heading">A personal webpage.</h2>
@@ -64,20 +66,20 @@
     </div>
     <div class="row">
       <div class="six columns">
-        <h3><span class="typcn typcn-device-desktop icon"></span>Student</h3>
+        <h3><span><i id="blackicon" class="fa fa-university" aria-hidden="true"></i></span> Student</h3>
         <p>I am a Computer Science and Engineering student at The Ohio State University having transferred from University of Houston! Before programming, I studied Music Theoory, Composition, and Audio Engineering; I earned my Teacher's Certification in 2013.</p>
       </div>
       <div class="six columns">
-        <h3><span class="typcn typcn-pen icon"></span>Developer</h3>
+        <h3><span><i id="blackicon" class="fa fa-github" aria-hidden="true"></i></span> Developer</h3>
         <p>I've been programming for almost two years now. Even though I was mostly self-taught, I was able to garner my first programming job at MIT. Since then, my college-level coursework includes: C++, Java, and Software I. </p>
       </div>
       <div class="row">
         <div class="six columns">
-          <h3><span class="typcn typcn-cog-outline icon"></span>Musician</h3>
+          <h3><span><i id="blackicon" class="fa fa-music" aria-hidden="true"></i></span> Musician</h3>
           <p>I've been playing instruments since I was young; the tenor saxophone is my go-to. However, I spent years playing piano while teaching and directing the band at St. Theresa. My favorite instrument to play is the ukulele, and my favorite to listen to is the bassoon.</p>
         </div>
         <div class="six columns">
-          <h3><span class="typcn typcn-lightbulb icon"></span>Entrepreneur</h3>
+          <h3><span><i id="blackicon" class="fa fa-lightbulb-o" aria-hidden="true"></i></span> Entrepreneur</h3>
           <p>In the summer of 2016, I started my company, Umanity LLC, with the hope that I would be able to secure a patent for the app I've been developing for a few months. By Fall 2016, I had raised over $250,000, hired 12 employees, and looking into procuring a second office for our growing software engineering company.</p>
         </div>
       </div>
@@ -96,19 +98,19 @@
       <p>Before I was a music teacher, I was a club/wedding DJ in Houston, TX. I have made strides professionally and academically over the years. Here are just a few milestones!</p>
     </div>
     <div class="row">
-      <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
+      <div class="three columns"> <img src="../images/theresa.jpg" width="220" height="220" alt=""/>
         <h4>St. Theresa</h4>
         <p>Music Teacher/Band Director</p>
         <!--<span class="typcn typcn-social-facebook-circular icon"></span><span class="typcn typcn-social-instagram-circular icon"></span><span class="typcn typcn-social-google-plus-circular icon"></span><span class="typcn typcn-social-linkedin-circular icon"></span> --></div>
-      <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
+      <div class="three columns"> <img src="../images/mit.jpg"  width="220" height="220" alt=""/>
         <h4>MIT</h4>
         <p>Programmer</p>
        </div>
-      <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
+      <div class="three columns"> <img src="../images/superh2.png"  width="220" alt=""/>
         <h4>SuperH</h4>
         <p>Software Engineer</p>
          </div>
-      <div class="three columns"> <img src="http://placehold.it/220x220" width="220" height="220" alt=""/>
+      <div class="three columns"> <img src="../images/umanity.jpg"  width="220" height="220" alt=""/>
         <h4>Umanity</h4>
         <p>Founder/CEO</p>
          </div>
@@ -134,7 +136,7 @@
       </div>
       <div class="one-third column">
         <h3>Development</h3>
-        <p>I love making web and native apps! I've worked on projects from Front-End user interfaces to Back-End data analytics. Click here to see my full resume!</p>
+        <p>I love making web and native apps! I've worked on projects from Front-End user interfaces to Back-End data analytics. Click <a href="../images/resume.pdf">here</a> to see my full resume!</p>
       </div>
       <div class="one-third column">
         <h3>Music</h3>
@@ -217,7 +219,7 @@
 </section>
 
 <!-- Testimonials Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+––––––––––––––––––––––––––––––––––––––––––––––––––
 
 <section id="testimonial">
   <div class="container">
@@ -234,7 +236,7 @@
       </blockquote>
     </div>
   </div>
-</section>
+</section>-->
 
 <!-- Contact Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -243,7 +245,7 @@
   <div class="container">
     <h1>Contact</h1>
     <div class="block"></div>
-    <form>
+    <form method="post" action="mailto:info@umanity.io">
       <div class="row">
         <div class="six columns">
           <label for="exampleRecipientInput">Name</label>
@@ -257,7 +259,7 @@
       <div class="row">
         <label for="exampleMessage">Message</label>
         <textarea class="u-full-width"></textarea>
-        <input class="button-primary" type="submit" value="Submit">
+        <input class="button-primary" type="submit" value="Send Email">
       </div>
     </form>
   </div>
