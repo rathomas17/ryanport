@@ -44,6 +44,7 @@ h2:after {
 	display: block;
 	margin: 42px 0;
 	content: "";
+
 }
 
 h3 {
@@ -142,7 +143,7 @@ h1 .logo {
 	z-index: 999;
 	padding: 0;
 	transition: background-color .8s;
-	
+
 }
 
 #home nav.fixed ul {
@@ -161,6 +162,8 @@ h1 .logo {
 	content: "";
 	display: block;
 }
+
+
 
 .social-links {
 	margin-top: 100px;
@@ -260,13 +263,17 @@ h1 .logo {
 }
 
 #portfolio {
-	background-color: #423a3a;
+	background: #d0e0e5; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #5fc3e4 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #fff 0%, #5fc3e4 100%);
 	padding-bottom: 80px;
 }
 
 #portfolio h2 {
-	color: #F0F0F0;
-	margin-bottom: 140px;
+	color: #6b9eae;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 #portfolio h2:after {
@@ -531,7 +538,7 @@ h1 .logo {
 		margin: 0 auto;
 		width: 30%;
 	}
-	
+
 	#about .info {
 		flex-direction: column-reverse;
 	}
@@ -621,7 +628,7 @@ h1 .logo {
 }
 
 @media screen and (max-width: 480px) {
-	
+
 	.social-links li {
 		display: block;
 		width: 100%;
@@ -654,5 +661,6 @@ h1 .logo {
 
 }
 
-
-
+#colorBlack{
+	color: #000;
+}
