@@ -90,6 +90,38 @@ body {
 
 #myImg8:hover {opacity: 0.7;}
 
+#myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg9:hover {opacity: 0.7;}
+
+#myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg10:hover {opacity: 0.7;}
+
+#myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg11:hover {opacity: 0.7;}
+
+#myImg12 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg12:hover {opacity: 0.7;}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
